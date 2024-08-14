@@ -1,0 +1,32 @@
+.header {
+  font-family: Arial;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.pages {
+  font-family: Arial;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; /* Ensure equal spacing between items */
+  align-items: center;
+  width: 100%; /* Make sure the container takes the full width */
+  margin: 20px 0; /* Optional: Adds some space above and below the links */
+}
+
+.pages a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.pages a:hover {
+  background-color: lightgray; /* Optional: Add a hover effect */
+}
+
