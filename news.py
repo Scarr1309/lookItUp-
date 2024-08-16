@@ -10,7 +10,6 @@ countries = {}
 for country in pycountry.countries:
     countries[country.name] = country.alpha_2
 
-
 codes = [countries.get(country.title(),'Unknown code') for country in input_countries]
 
 
